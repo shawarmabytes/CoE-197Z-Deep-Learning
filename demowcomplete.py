@@ -76,7 +76,7 @@ while True:
 	# grab the frame from the threaded video stream and resize it
 	# to have a maximum width of 400 pixels
 	_, frame = cap.read()
-	frame = imutils.resize(frame, width=1080, height=720)
+	frame = imutils.resize(frame, width=640, height=480)
 	orig = frame.copy()
 	# convert the frame from BGR to RGB channel ordering and change
 	# the frame from channels last to channels first ordering
