@@ -28,8 +28,8 @@ def tester():
 
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
-    weights = torch.load("drinks_nutz.pth")
-    model.load_state_dict(weights["state_dict"])
+    drinks = torch.load("drinks_dataset_trained_model.pth")
+    model.load_state_dict(drinks["state_dict"])
     model.to(device)
     model.eval()
     evaluate(model, data_loader_test, device=device)
