@@ -39,6 +39,7 @@ Otherwise, you can install them by running:
 ```
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+
 ## Fine-tuning the pre-trained model to a custom dataset
 ```
 python train.py
