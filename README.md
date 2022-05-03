@@ -1,8 +1,8 @@
 # CoE-197Z-Deep-Learning-Object-Detection
 
 ## Author
-Josh Lear Yap
-2018-0XXX7
+Josh Lear Yap  
+2018-0XXX7  
 BS Electronics Engineering
 
 ## About the project
