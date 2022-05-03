@@ -107,9 +107,9 @@ IoU metric: bbox
  Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.738  
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.864  
  
- ## Specifications of machine
- 
- 
+ ## Machine GPU used
+NVIDIA GeForce GTX 1650
+
  ## References
  [Pytorcch object detection with pre-trained networks](https://pyimagesearch.com/2021/08/02/pytorch-object-detection-with-pre-trained-networks/)  
  [TorchVision Object Detection Fine Tuninig Tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)  
