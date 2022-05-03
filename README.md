@@ -54,7 +54,6 @@ python demowcomplete.py
 ```
 Note: Make sure that a webcam is connected to your computer to avoid this error:  
 ``AttributeError: 'NoneType' object has no attribute 'shape'``
---
 ## Evaluation after model traning (after running train.py)
 Test:  [ 0/51]  eta: 0:00:02  model_time: 0.0299 (0.0299)  evaluator_time: 0.0030 (0.0030)  time: 0.0449  data: 0.0100  max mem: 465  
 Test:  [50/51]  eta: 0:00:00  model_time: 0.0332 (0.0352)  evaluator_time: 0.0010 (0.0016)  time: 0.0482  data: 0.0104  max mem: 465  
