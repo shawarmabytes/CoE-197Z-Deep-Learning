@@ -49,4 +49,4 @@ class ImageDataSet(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.imgs)
 
-print("test")
+#print("test")
