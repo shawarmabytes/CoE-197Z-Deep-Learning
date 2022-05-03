@@ -7,13 +7,10 @@ BS Electronics Engineering
 University of the Philippines Diliman  
 Electrical and Electronics Engineering Institute  
 
-## About the project
-This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). 
+### About the project
+This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). The fine-tuned model or checkpoint can also be found on this repository's release or accessed through 
 
 For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection).
-
-## Checkpoint
-[drinks_dataset_trained_model.pth](https://github.com/shawarmabytes/CoE-197Z-Deep-Learning-Object-Detection/releases/download/v1.0/drinks_dataset_trained_model.pth)
 
 ## Python Scripts
 
