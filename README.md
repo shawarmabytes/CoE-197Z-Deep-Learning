@@ -1,7 +1,9 @@
 # CoE-197Z-Deep-Learning-Object-Detection
 
 ## Author
-
+Josh Lear Yap
+2018-0XXX7
+BS Electronics Engineering
 
 ## About the project
 This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). 
