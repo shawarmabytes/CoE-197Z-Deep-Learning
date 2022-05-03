@@ -21,20 +21,12 @@ For more information about torchvision and object detection, click [here](https:
 
 The following scripts are borrowed from the [PyTorch vision reference](https://github.com/pytorch/vision/tree/main/references/detection):  
 ``coco_eval.py``
-
 ``coco_utils.py``
-
 ``engine.py``
-
 ``group_by_aspect_ratio.py``
-
 ``presets.py``
-
 ``transforms.py``
-
 ``utils.py``
-
-
 
 ## Install requirements
 ```
