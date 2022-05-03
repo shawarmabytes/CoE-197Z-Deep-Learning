@@ -35,9 +35,9 @@ The following scripts are borrowed from the [PyTorch vision reference](https://g
 ``transforms.py``
 ``utils.py``
 
+## Code exection
 
-
-## Install requirements
+### Install requirements
 ```
 pip3 install -r requirements.txt
 ```
@@ -49,21 +49,21 @@ Otherwise, you can install them by running:
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
-## Fine-tuning the pre-trained model to a custom dataset
+### Fine-tuning the pre-trained model to a custom dataset
 ```
 python train.py
 ```
-## Testing the fine-tuned model
+### Testing the fine-tuned model
 ```
 python test.py
 ```
-## Video demonstration
+### Video demonstration
 ```
 python demowcomplete.py
 ```
 Note: Make sure that a webcam is connected to your computer to avoid this error:  
 ``AttributeError: 'NoneType' object has no attribute 'shape'``
-## Evaluation after model training (after running train.py)
+### Evaluation after model training (after running train.py)
 Test:  [ 0/51]  eta: 0:00:02  model_time: 0.0299 (0.0299)  evaluator_time: 0.0030 (0.0030)  time: 0.0449  data: 0.0100  max mem: 465  
 Test:  [50/51]  eta: 0:00:00  model_time: 0.0332 (0.0352)  evaluator_time: 0.0010 (0.0016)  time: 0.0482  data: 0.0104  max mem: 465  
 Test: Total time: 0:00:02 (0.0484 s / it)  
@@ -85,7 +85,7 @@ IoU metric: bbox
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.857  
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.857  
 
-## Evaluation after model testing (after running test.py)
+### Evaluation after model testing (after running test.py)
 
 Test:  [ 0/51]  eta: 0:04:47  model_time: 5.6357 (5.6357)  evaluator_time: 0.0020 (0.0020)  time: 5.6456  data: 0.0070  max mem: 181  
 Test:  [50/51]  eta: 0:00:00  model_time: 0.0277 (0.1409)  evaluator_time: 0.0010 (0.0014)  time: 0.0405  data: 0.0065  max mem: 181  
