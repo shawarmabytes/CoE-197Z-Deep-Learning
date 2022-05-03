@@ -3,12 +3,29 @@
 ## About the project
 This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). 
 
-For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection)
+For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection).
 
+# Python Scripts
+
+The following scripts are borrowed from the [PyTorch vision reference](https://github.com/pytorch/vision/tree/main/references/detection):
+*coco_eval.py  
+*coco_utils.py  
+*engine.py
+*group_by_aspect_ratio.py
+*presets.py
+*transforms.py
+*utils.py  
+
+*dicto.py* turns the csv files *labels_train.csv* and *labels_test.csv* to a dictionary within a dictionary containing important elements such as the file names, bounding boxes, area, labels, image id.
+*drinks_dataset.py* defines the dataset.  
+*study.py* includes functions that allow *test.py* to download the fine-tuned model, and the *train.py* to download and extract the zip file containing the drinks dataset.  
+*train.py* trains the ***Faster R-CNN MobileNetV3-Large 320 FPN*** model to output a fine-tuned moel.
+*test.py* tests the fine-tuned model.
+*demowcomplete.py* prompts a video demo using your webcam.
 
 ## Install requirements
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 Note: The requirements.txt file assumes that you have torch and torchvision installed with cuda enabled.
 
@@ -17,7 +34,23 @@ Otherwise, you can install them by running:
 ```
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+# Fine-tuning the pre-trained model to a custom dataset
+```
+python train.py
+```
 
+# Testing the fine-tuned model
+```
+python test.py
+```
+
+# Video demonstration
+```
+python demowcomplete.py
+```
+Note: Make sure that a webcam is connected to your computer to avoid this error:  
+
+*AttributeError: 'NoneType' object has no attribute 'shape'
 --
 ## Evaluation after model traning (after running train.py)
 Test:  [ 0/51]  eta: 0:00:02  model_time: 0.0299 (0.0299)  evaluator_time: 0.0030 (0.0030)  time: 0.0449  data: 0.0100  max mem: 465  
