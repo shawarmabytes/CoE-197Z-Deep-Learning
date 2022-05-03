@@ -9,7 +9,7 @@ Electrical and Electronics Engineering Institute
 
 ## References
 [Pytorcch object detection with pre-trained networks](https://pyimagesearch.com/2021/08/02/pytorch-object-detection-with-pre-trained-networks/)  
-[TorchVision Object Detection Fine Tuninig Tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)  
+[TorchVision Object Detection Fine Tuning Tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)  
 [PyTorch vision reference](https://github.com/pytorch/vision/tree/main/references/detection)  
 [Deep Learning Experiments](https://github.com/roatienza/Deep-Learning-Experiments)
 
