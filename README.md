@@ -5,6 +5,19 @@ This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-traine
 
 For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection)
 
+
+## Install requirements
+```
+pip install -r requirements.txt
+```
+Note: The requirements.txt file assumes that you have torch and torchvision installed with cuda enabled.
+
+Otherwise, you can install them by running:
+
+```
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+```
+
 --
 ## Evaluation after model traning (after running train.py)
 Test:  [ 0/51]  eta: 0:00:02  model_time: 0.0299 (0.0299)  evaluator_time: 0.0030 (0.0030)  time: 0.0449  data: 0.0100  max mem: 465  
