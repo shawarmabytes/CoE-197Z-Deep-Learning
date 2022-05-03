@@ -18,7 +18,7 @@ The following scripts are borrowed from the [PyTorch vision reference](https://g
 
 ****dicto.py**** turns the csv files *labels_train.csv* and *labels_test.csv* to a dictionary within a dictionary containing important elements such as the file names, bounding boxes, area, labels, image id.  
 ***drinks_dataset.py*** defines the dataset.  
-***study.py*** includes functions that allow *test.py* to download the fine-tuned model, and the *train.py* to download and extract the zip file containing the drinks dataset.  
+***study.py*** includes functions that allow ***test.py*** to download the fine-tuned model, and the ***train.py*** to download and extract the zip file containing the drinks dataset.  
 ***train.py*** trains the ***Faster R-CNN MobileNetV3-Large 320 FPN*** model to output a fine-tuned moel.  
 ***test.py*** tests the fine-tuned model.  
 ***demowcomplete.py*** prompts a video demo using your webcam.  
