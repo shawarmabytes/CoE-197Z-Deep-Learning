@@ -10,10 +10,12 @@ from drinks_dataset import ImageDataSet
 import transforms as T
 from engine import evaluate
 from study import pth_get
+from study import zipper
 
 def tester():
 
-    pth_get () #check if trained model for testing exists, if not, download.
+    pth_get() #check if trained model for testing exists, if not, download.
+    zipper() #check if zipped file dataset exists, if not, download.
     # load a model pre-trained on COCO
     model = torchvision.models.detection.fasterrcnn_mobilenet_v3_large_320_fpn(pretrained=True)
     # get number of input features for the classifier
