@@ -35,8 +35,9 @@ The following scripts are borrowed from the [PyTorch vision reference](https://g
 ``transforms.py``
 ``utils.py``
 
-## Code exection
 
+
+## Prerequisite/Setup
 ### Install requirements
 ```
 pip3 install -r requirements.txt
@@ -48,6 +49,8 @@ Otherwise, you can install them by running:
 ```
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+
+## Code execution
 
 ### Fine-tuning the pre-trained model to a custom dataset
 ```
