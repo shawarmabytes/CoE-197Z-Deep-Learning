@@ -43,7 +43,6 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 ```
 python train.py
 ```
-
 ## Testing the fine-tuned model
 ```
 python test.py
