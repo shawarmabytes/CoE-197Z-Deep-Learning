@@ -4,6 +4,8 @@
 Josh Lear Yap  
 2018-0XXX7  
 BS Electronics Engineering
+University of the Philippines Diliman
+Electrical and Electronics Engineering Institute
 
 ## About the project
 This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). 
@@ -104,6 +106,9 @@ IoU metric: bbox
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000  
  Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.738  
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.864  
+ 
+ ## Specifications of machine
+ 
  
  ## References
  [Pytorcch object detection with pre-trained networks](https://pyimagesearch.com/2021/08/02/pytorch-object-detection-with-pre-trained-networks/)  
