@@ -5,16 +5,16 @@ This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-traine
 
 For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection).
 
-# Python Scripts
+## Python Scripts
 
 The following scripts are borrowed from the [PyTorch vision reference](https://github.com/pytorch/vision/tree/main/references/detection):  
-***coco_eval.py  
-*coco_utils.py  
-*engine.py
-*group_by_aspect_ratio.py  
-*presets.py  
-*transforms.py  
-*utils.py  
+***coco_eval.py***  
+***coco_utils.py***  
+***engine.py***
+***group_by_aspect_ratio.py***  
+***presets.py***  
+***transforms.py***  
+***utils.py***  
 
 ****dicto.py**** turns the csv files *labels_train.csv* and *labels_test.csv* to a dictionary within a dictionary containing important elements such as the file names, bounding boxes, area, labels, image id.  
 ***drinks_dataset.py*** defines the dataset.  
@@ -34,17 +34,17 @@ Otherwise, you can install them by running:
 ```
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
-# Fine-tuning the pre-trained model to a custom dataset
+## Fine-tuning the pre-trained model to a custom dataset
 ```
 python train.py
 ```
 
-# Testing the fine-tuned model
+## Testing the fine-tuned model
 ```
 python test.py
 ```
 
-# Video demonstration
+## Video demonstration
 ```
 python demowcomplete.py
 ```
