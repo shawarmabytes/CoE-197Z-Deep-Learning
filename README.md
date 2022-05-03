@@ -15,7 +15,7 @@ For more information about torchvision and object detection, click [here](https:
 
 ``train.py`` trains the ***Faster R-CNN MobileNetV3-Large 320 FPN*** model to output a fine-tuned model.  
 
-``test.py``tests the fine-tuned model.  
+``test.py`` tests the fine-tuned model.  
 
 ``demowcomplete.py`` prompts a video demo using your webcam.  
 
