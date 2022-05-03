@@ -7,8 +7,14 @@ BS Electronics Engineering
 University of the Philippines Diliman  
 Electrical and Electronics Engineering Institute  
 
-### About the project
-This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). The fine-tuned model or checkpoint can also be found on this repository's release or accessed through 
+## References
+[Pytorcch object detection with pre-trained networks](https://pyimagesearch.com/2021/08/02/pytorch-object-detection-with-pre-trained-networks/)  
+[TorchVision Object Detection Fine Tuninig Tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)  
+[PyTorch vision reference](https://github.com/pytorch/vision/tree/main/references/detection)  
+[Deep Learning Experiments](https://github.com/roatienza/Deep-Learning-Experiments)
+
+## About the project
+This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-trained model and fine-tuned using the drinks dataset, which can be found on this repository's release or accessed through this [google drive link](https://drive.google.com/file/d/1AdMbVK110IKLG7wJKhga2N2fitV1bVPA/view?usp=sharing). The fine-tuned model or weights checkpoint can be found [here](https://github.com/shawarmabytes/CoE-197Z-Deep-Learning-Object-Detection/releases/download/v1.0/drinks_dataset_trained_model.pth). 
 
 For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection).
 
@@ -113,8 +119,4 @@ IoU metric: bbox
  ## Machine GPU used
 NVIDIA GeForce GTX 1650
 
- ## References
- [Pytorcch object detection with pre-trained networks](https://pyimagesearch.com/2021/08/02/pytorch-object-detection-with-pre-trained-networks/)  
- [TorchVision Object Detection Fine Tuninig Tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)  
- [PyTorch vision reference](https://github.com/pytorch/vision/tree/main/references/detection)  
- [Deep Learning Experiments](https://github.com/roatienza/Deep-Learning-Experiments)
+
