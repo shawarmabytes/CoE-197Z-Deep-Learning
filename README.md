@@ -12,7 +12,7 @@ This project used ***Faster R-CNN MobileNetV3-Large 320 FPN*** as its pre-traine
 
 For more information about torchvision and object detection, click [here](https://github.com/pytorch/vision/tree/main/references/detection).
 
-## Weights
+## Checkpoint
 [drinks_dataset_trained_model.pth](https://github.com/shawarmabytes/CoE-197Z-Deep-Learning-Object-Detection/releases/download/v1.0/drinks_dataset_trained_model.pth)
 
 ## Python Scripts
