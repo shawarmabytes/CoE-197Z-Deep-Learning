@@ -11,6 +11,7 @@ Electrical and Electronics Engineering Institute
 [Keyword Spotting (KWS) using PyTorch Lightning](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb)  
 [Keyword Spotting (KWS) application](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws-infer.py)  
 [Transformer for CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/python/transformer_demo.ipynb)  
+[Tensor operations with einops](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/tools/python/einops_demo.ipynb)
 
 ## About the project
 This project used 
