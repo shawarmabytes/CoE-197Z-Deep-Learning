@@ -15,6 +15,9 @@ Electrical and Electronics Engineering Institute
 ## About the project
 This project used 
 
+## Performance Metrics
+The training accuracy reached 92.80603% with 16 patches. For more information about this, visit the [wandb logs here,](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/logs?workspace=user-shawarmabytes) and the [run overview here.](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/overview?workspace=user-shawarmabytes)
+
 ## Python Scripts
 
 ``trainer.py`` trains the speech-command dataset using a transformer model  
@@ -53,6 +56,5 @@ python kws-infer.py
 ## Machine GPU used
 NVIDIA GeForce RTX 2060
 
-## Performance Metrics
-The training accuracy reached 92.80603% with 16 patches. For more information about this, visit the [wandb logs here,](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/logs?workspace=user-shawarmabytes) and [run overview here.](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/overview?workspace=user-shawarmabytes)
+
 
