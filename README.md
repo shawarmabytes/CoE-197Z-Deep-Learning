@@ -19,6 +19,8 @@ This project used
 
 ``trainer.py`` trains the speech-command dataset using a transformer model  
 
+``transformer_model`` contains the transformer model suitable for the speech-commands dataset
+
 ``dataset.py`` contains the LightningDataModule suitable for the transformer model  
 
 ``kws-infer.py`` prompts a microphone based GUI for keyword spotting application  
@@ -35,5 +37,19 @@ Otherwise, you can install them by running:
 ```
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+
+## Code execution
+
+### Training the transformer model 
+```
+python trainer.py
+```
+
+### Keyword Spotting Application
+```
+python kws-infer.py
+```
+
+
 
 
