@@ -40,7 +40,7 @@ The training accuracy reached 92.80603% with 16 patches. For more information ab
 ```
 pip3 install -r requirements.txt
 ```
-Note: The requirements.txt file assumes that you have torch and torchvision installed with cuda enabled.
+Note: The requirements.txt file assumes that you have torch, torchvision, and torchaudio installed with cuda enabled.
 
 Otherwise, you can install them by running:
 
