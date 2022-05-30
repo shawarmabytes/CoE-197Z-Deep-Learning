@@ -81,7 +81,7 @@ if __name__ == "__main__":
         sample_rate = 16000
         sd.default.samplerate = sample_rate
         sd.default.channels = 1
-        sg.theme('DarkAmber')
+        sg.theme('BluePurple')
   
     elif args.wav_file is None:
         # list wav files given a folder
