@@ -8,20 +8,17 @@ University of the Philippines Diliman
 Electrical and Electronics Engineering Institute  
 
 ## References
+
 [Keyword Spotting (KWS) using PyTorch Lightning](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb)  
 [Keyword Spotting (KWS) application](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws-infer.py)  
 [Transformer for CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/python/transformer_demo.ipynb)  
 [Tensor operations with einops](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/tools/python/einops_demo.ipynb)
 
 ## About the project
-This project used 
+
+This project used and modified the existing PyTorch Lightning's LightningDataModule seen at [Keyword Spotting (KWS) using PyTorch Lightning](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb) in order for the data to be suitable for the modified version of the current transformer model at [Transformer for CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/python/transformer_demo.ipynb). In line with this, the [Keyword Spotting (KWS) application](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws-infer.py) is also modified to make the transformer-based KWS application work.
 
 ## Performance Metrics
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 The training accuracy reached 92.80603% with 16 patches. For more information about this, visit the [wandb logs here,](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/logs?workspace=user-shawarmabytes) and the [run overview here.](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/overview?workspace=user-shawarmabytes)
 
