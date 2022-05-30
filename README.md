@@ -17,6 +17,12 @@ Electrical and Electronics Engineering Institute
 This project used 
 
 ## Performance Metrics
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 The training accuracy reached 92.80603% with 16 patches. For more information about this, visit the [wandb logs here,](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/logs?workspace=user-shawarmabytes) and the [run overview here.](https://wandb.ai/shawarmabytes/pl-kws/runs/1dd0x972/overview?workspace=user-shawarmabytes)
 
 ## Python Scripts
